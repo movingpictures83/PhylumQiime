@@ -1,0 +1,4 @@
+Prefix plugins/PhylumQiime/example/
+Plugin TSV2CSV inputfile unnormalized.tsv outputfile unnormalized.csv
+Plugin CSVTranspose inputfile unnormalized.csv outputfile unnormalized.transpose.csv
+Plugin PhylumQiime inputfile unnormalized.transpose.csv outputfile phylum.noa
